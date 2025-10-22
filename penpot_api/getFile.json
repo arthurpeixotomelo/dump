@@ -1,0 +1,2684 @@
+{
+  "features": [
+    "layout/grid",
+    "styles/v2",
+    "components/v2",
+    "fdata/shape-data-type"
+  ],
+  "permissions": {
+    "type": "membership",
+    "isOwner": true,
+    "isAdmin": true,
+    "canEdit": true,
+    "canRead": true,
+    "isLogged": true
+  },
+  "hasMediaTrimmed": false,
+  "commentThreadSeqn": 0,
+  "name": "Design System",
+  "revn": 1,
+  "modifiedAt": "2024-10-15T04:33:38.798026Z",
+  "id": "5e250d03-b345-8112-8005-1ed687e6ed6f",
+  "isShared": false,
+  "version": 54,
+  "projectId": "af8aaf7c-05e6-8124-8003-bf2f4216283e",
+  "createdAt": "2024-10-15T03:47:29.820088Z",
+  "data": {
+    "pages": [
+      "5e250d03-b345-8112-8005-1ed687e6ed70"
+    ],
+    "pagesIndex": {
+      "5e250d03-b345-8112-8005-1ed687e6ed70": {
+        "options": {},
+        "objects": {
+          "00000000-0000-0000-0000-000000000000": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "name": "Root Frame",
+            "type": "frame",
+            "x": 0,
+            "y": 0,
+            "width": 0.01,
+            "height": 0.01,
+            "rotation": 0,
+            "selrect": {
+              "x": 0,
+              "y": 0,
+              "width": 0.01,
+              "height": 0.01,
+              "x1": 0,
+              "y1": 0,
+              "x2": 0.01,
+              "y2": 0.01
+            },
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 0.01,
+                "y": 0
+              },
+              {
+                "x": 0.01,
+                "y": 0.01
+              },
+              {
+                "x": 0,
+                "y": 0.01
+              }
+            ],
+            "transform": {
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "d": 1,
+              "e": 0,
+              "f": 0
+            },
+            "transformInverse": {
+              "a": 1,
+              "b": 0,
+              "c": 0,
+              "d": 1,
+              "e": 0,
+              "f": 0
+            },
+            "parentId": "00000000-0000-0000-0000-000000000000",
+            "frameId": "00000000-0000-0000-0000-000000000000",
+            "flipX": null,
+            "flipY": null,
+            "hideFillOnExport": false,
+            "proportionLock": false,
+            "strokes": [],
+            "proportion": 1,
+            "fills": [
+              {
+                "fillColor": "#FFFFFF",
+                "fillOpacity": 1
+              }
+            ],
+            "shapes": []
+          }
+        },
+        "id": "5e250d03-b345-8112-8005-1ed687e6ed70",
+        "name": "Page 1"
+      }
+    },
+    "id": "5e250d03-b345-8112-8005-1ed687e6ed6f",
+    "options": {
+      "componentsV2": true
+    },
+    "typographies": {
+      "01928e73-f7ad-717e-bce7-6a211b32d2cd": {
+        "lineHeight": "1.2",
+        "path": "Sans / Button",
+        "fontStyle": "normal",
+        "textTransform": "uppercase",
+        "fontId": "gfont-roboto",
+        "fontSize": "16",
+        "fontWeight": "700",
+        "name": "B2",
+        "modifiedAt": "2024-10-15T04:33:38.799Z",
+        "fontVariantId": "700",
+        "id": "01928e73-f7ad-717e-bce7-6a211b32d2cd",
+        "letterSpacing": "0",
+        "fontFamily": "Roboto"
+      },
+      "01928e73-f7ad-7ec1-a1f3-f860d66c7574": {
+        "lineHeight": "2",
+        "path": "Sans / Caption",
+        "fontStyle": "normal",
+        "textTransform": "none",
+        "fontId": "gfont-roboto",
+        "fontSize": "14",
+        "fontWeight": "300",
+        "name": "C1",
+        "modifiedAt": "2024-10-15T04:33:38.799Z",
+        "fontVariantId": "300",
+        "id": "01928e73-f7ad-7ec1-a1f3-f860d66c7574",
+        "letterSpacing": "0",
+        "fontFamily": "Roboto"
+      },
+      "01928e73-f7ad-7d83-9176-18f7d7dd7e20": {
+        "lineHeight": "1.2",
+        "path": "Sans / Button",
+        "fontStyle": "normal",
+        "textTransform": "uppercase",
+        "fontId": "gfont-roboto",
+        "fontSize": "24",
+        "fontWeight": "700",
+        "name": "B1",
+        "modifiedAt": "2024-10-15T04:33:38.799Z",
+        "fontVariantId": "700",
+        "id": "01928e73-f7ad-7d83-9176-18f7d7dd7e20",
+        "letterSpacing": "0",
+        "fontFamily": "Roboto"
+      },
+      "01928e73-f7ad-706d-89b1-1d4bf349e97f": {
+        "lineHeight": "1.2",
+        "path": "Sans / Heading",
+        "fontStyle": "normal",
+        "textTransform": "capitalize",
+        "fontId": "gfont-roboto",
+        "fontSize": "48",
+        "fontWeight": "700",
+        "name": "H2",
+        "modifiedAt": "2024-10-15T04:33:38.799Z",
+        "fontVariantId": "700",
+        "id": "01928e73-f7ad-706d-89b1-1d4bf349e97f",
+        "letterSpacing": "0",
+        "fontFamily": "Roboto"
+      },
+      "01928e73-f7ad-7250-bd86-62e432b9214b": {
+        "lineHeight": "1.2",
+        "path": "Sans / Heading",
+        "fontStyle": "normal",
+        "textTransform": "capitalize",
+        "fontId": "gfont-roboto",
+        "fontSize": "64",
+        "fontWeight": "700",
+        "name": "H1",
+        "modifiedAt": "2024-10-15T04:33:38.799Z",
+        "fontVariantId": "700",
+        "id": "01928e73-f7ad-7250-bd86-62e432b9214b",
+        "letterSpacing": "0",
+        "fontFamily": "Roboto"
+      },
+      "01928e73-f7ad-7c87-9124-2c1a68d1a8e3": {
+        "lineHeight": "1.2",
+        "path": "Sans / Heading",
+        "fontStyle": "normal",
+        "textTransform": "capitalize",
+        "fontId": "gfont-roboto",
+        "fontSize": "32",
+        "fontWeight": "700",
+        "name": "H3",
+        "modifiedAt": "2024-10-15T04:33:38.799Z",
+        "fontVariantId": "700",
+        "id": "01928e73-f7ad-7c87-9124-2c1a68d1a8e3",
+        "letterSpacing": "0",
+        "fontFamily": "Roboto"
+      },
+      "01928e73-f7ad-752c-aeb2-737f8cdcc1ee": {
+        "lineHeight": "1.6",
+        "path": "Sans / Paragraph",
+        "fontStyle": "normal",
+        "textTransform": "none",
+        "fontId": "gfont-roboto",
+        "fontSize": "16",
+        "fontWeight": "400",
+        "name": "P2",
+        "modifiedAt": "2024-10-15T04:33:38.799Z",
+        "fontVariantId": "regular",
+        "id": "01928e73-f7ad-752c-aeb2-737f8cdcc1ee",
+        "letterSpacing": "0",
+        "fontFamily": "Roboto"
+      },
+      "01928e73-f7ad-722f-8b96-45de87398071": {
+        "lineHeight": "1.6",
+        "path": "Sans / Paragraph",
+        "fontStyle": "normal",
+        "textTransform": "none",
+        "fontId": "gfont-roboto",
+        "fontSize": "24",
+        "fontWeight": "400",
+        "name": "P1",
+        "modifiedAt": "2024-10-15T04:33:38.799Z",
+        "fontVariantId": "regular",
+        "id": "01928e73-f7ad-722f-8b96-45de87398071",
+        "letterSpacing": "0",
+        "fontFamily": "Roboto"
+      },
+      "01928e73-f7ad-7af8-893b-89fafc22f307": {
+        "lineHeight": "2",
+        "path": "Sans / Caption",
+        "fontStyle": "normal",
+        "textTransform": "none",
+        "fontId": "gfont-roboto",
+        "fontSize": "12",
+        "fontWeight": "300",
+        "name": "C2",
+        "modifiedAt": "2024-10-15T04:33:38.799Z",
+        "fontVariantId": "300",
+        "id": "01928e73-f7ad-7af8-893b-89fafc22f307",
+        "letterSpacing": "0",
+        "fontFamily": "Roboto"
+      }
+    },
+    "colors": {
+      "01928e73-f7af-7ea7-b60f-9c2adba3789e": {
+        "id": "01928e73-f7af-7ea7-b60f-9c2adba3789e",
+        "opacity": 1,
+        "color": "#5b5bd6",
+        "name": "05",
+        "path": "Iris / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7056-abb4-95f9eb605f5c": {
+        "id": "01928e73-f7af-7056-abb4-95f9eb605f5c",
+        "opacity": 1,
+        "color": "#30a46c",
+        "name": "05",
+        "path": "Green / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-76f1-8f50-bfff1a08abdd": {
+        "id": "01928e73-f7b0-76f1-8f50-bfff1a08abdd",
+        "opacity": 1,
+        "color": "#63706b",
+        "name": "05",
+        "path": "Sage / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7f4b-b7cc-db57b03ad32f": {
+        "id": "01928e73-f7b0-7f4b-b7cc-db57b03ad32f",
+        "opacity": 1,
+        "color": "#687066",
+        "name": "05",
+        "path": "Olive / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-78ae-996a-3e9b10a83926": {
+        "id": "01928e73-f7ae-78ae-996a-3e9b10a83926",
+        "opacity": 1,
+        "color": "#e093b2",
+        "name": "04",
+        "path": "Crimson / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b1-7c19-a8a5-f18073e2858a": {
+        "id": "01928e73-f7b1-7c19-a8a5-f18073e2858a",
+        "opacity": 1,
+        "color": "#222221",
+        "name": "02",
+        "path": "Sand / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-74ff-bbfd-83d10d65463d": {
+        "id": "01928e73-f7b0-74ff-bbfd-83d10d65463d",
+        "opacity": 1,
+        "color": "#7e451d",
+        "name": "04",
+        "path": "Orange / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-7ea2-972e-3d40d71cd211": {
+        "id": "01928e73-f7ae-7ea2-972e-3d40d71cd211",
+        "opacity": 1,
+        "color": "#0d3c48",
+        "name": "07",
+        "path": "Cyan / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7458-a255-ea65d96da80f": {
+        "id": "01928e73-f7b0-7458-a255-ea65d96da80f",
+        "opacity": 1,
+        "color": "#d7dad9",
+        "name": "03",
+        "path": "Sage / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7120-ae15-cb1e538db88c": {
+        "id": "01928e73-f7af-7120-ae15-cb1e538db88c",
+        "opacity": 1,
+        "color": "#b1f1cb",
+        "name": "07",
+        "path": "Green / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-75c0-9e4c-42772e160485": {
+        "id": "01928e73-f7ae-75c0-9e4c-42772e160485",
+        "opacity": 1,
+        "color": "#12677e",
+        "name": "04",
+        "path": "Cyan / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7f62-9765-e8e7bb5df457": {
+        "id": "01928e73-f7af-7f62-9765-e8e7bb5df457",
+        "opacity": 1,
+        "color": "#193b2d",
+        "name": "07",
+        "path": "Green / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7bde-a6ff-56db2455fa97": {
+        "id": "01928e73-f7b0-7bde-a6ff-56db2455fa97",
+        "opacity": 1,
+        "color": "#641723",
+        "name": "07",
+        "path": "Red / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-799b-a804-9737ea65e29e": {
+        "id": "01928e73-f7af-799b-a804-9737ea65e29e",
+        "opacity": 1,
+        "color": "#9eb1ff",
+        "name": "06",
+        "path": "Indigo / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-750d-9f08-b6577c455348": {
+        "id": "01928e73-f7af-750d-9f08-b6577c455348",
+        "opacity": 1,
+        "color": "#132d21",
+        "name": "02",
+        "path": "Green / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b1-79b1-82b5-f77d1207d89d": {
+        "id": "01928e73-f7b1-79b1-82b5-f77d1207d89d",
+        "opacity": 1,
+        "color": "#b5b3ad",
+        "name": "06",
+        "path": "Sand / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-78a4-82cc-c39f6085690a": {
+        "id": "01928e73-f7b0-78a4-82cc-c39f6085690a",
+        "opacity": 1,
+        "color": "#e796f3",
+        "name": "06",
+        "path": "Plum / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7e59-96cd-4edb7b6a9e73": {
+        "id": "01928e73-f7b0-7e59-96cd-4edb7b6a9e73",
+        "opacity": 1,
+        "color": "#2e3130",
+        "name": "03",
+        "path": "Sage / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7bd4-9356-8da5b6c6c8a0": {
+        "id": "01928e73-f7b0-7bd4-9356-8da5b6c6c8a0",
+        "opacity": 1,
+        "color": "#8e4ec6",
+        "name": "05",
+        "path": "Purple / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-7b7a-a95d-98773aee61bc": {
+        "id": "01928e73-f7b2-7b7a-a95d-98773aee61bc",
+        "opacity": 1,
+        "color": "#084843",
+        "name": "03",
+        "path": "Teal / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-70a7-be10-f7ff87ae0dc9": {
+        "id": "01928e73-f7af-70a7-be10-f7ff87ae0dc9",
+        "opacity": 1,
+        "color": "#b1a9ff",
+        "name": "06",
+        "path": "Iris / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-79fb-afe9-fed2286d7818": {
+        "id": "01928e73-f7af-79fb-afe9-fed2286d7818",
+        "opacity": 1,
+        "color": "#29a383",
+        "name": "05",
+        "path": "Jade / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-74e5-bb5d-66d1ba8141c5": {
+        "id": "01928e73-f7af-74e5-bb5d-66d1ba8141c5",
+        "opacity": 1,
+        "color": "#daf1db",
+        "name": "02",
+        "path": "Grass / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ad-75e1-978b-f1675c0c94d7": {
+        "id": "01928e73-f7ad-75e1-978b-f1675c0c94d7",
+        "opacity": 1,
+        "color": "#5eb1ef",
+        "name": "04",
+        "path": "Blue / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7c39-8cba-2feebba823e6": {
+        "id": "01928e73-f7b0-7c39-8cba-2feebba823e6",
+        "opacity": 1,
+        "color": "#351a35",
+        "name": "02",
+        "path": "Plum / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7084-8e49-07e06b738795": {
+        "id": "01928e73-f7b0-7084-8e49-07e06b738795",
+        "opacity": 1,
+        "color": "#8e4ec6",
+        "name": "05",
+        "path": "Purple / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-7493-a314-b0a776f3dd25": {
+        "id": "01928e73-f7b2-7493-a314-b0a776f3dd25",
+        "opacity": 1,
+        "color": "#fff8f7",
+        "name": "01",
+        "path": "Tomato / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7bc0-b674-c271de2978a0": {
+        "id": "01928e73-f7b0-7bc0-b674-c271de2978a0",
+        "opacity": 1,
+        "color": "#e0c4f4",
+        "name": "03",
+        "path": "Purple / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7e43-9db7-18b88a2f5d2b": {
+        "id": "01928e73-f7b0-7e43-9db7-18b88a2f5d2b",
+        "opacity": 1,
+        "color": "#bcbbb5",
+        "name": "04",
+        "path": "Sand / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7738-bec8-ab75524e37dd": {
+        "id": "01928e73-f7af-7738-bec8-ab75524e37dd",
+        "opacity": 1,
+        "color": "#eeeeee",
+        "name": "05",
+        "path": "Gray / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7ef6-be8c-e4160fe63690": {
+        "id": "01928e73-f7b0-7ef6-be8c-e4160fe63690",
+        "opacity": 1,
+        "color": "#49474e",
+        "name": "04",
+        "path": "Mauve / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-77f9-bbd9-376e2377f4c7": {
+        "id": "01928e73-f7b0-77f9-bbd9-376e2377f4c7",
+        "opacity": 1,
+        "color": "#fbf7fe",
+        "name": "01",
+        "path": "Purple / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7e25-b683-9c27e94a0652": {
+        "id": "01928e73-f7b0-7e25-b683-9c27e94a0652",
+        "opacity": 1,
+        "color": "#be93e4",
+        "name": "04",
+        "path": "Purple / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7254-b03b-54e56f4ad6e1": {
+        "id": "01928e73-f7b0-7254-b03b-54e56f4ad6e1",
+        "opacity": 1,
+        "color": "#331e0b",
+        "name": "02",
+        "path": "Orange / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-7029-8805-79b59a4a7cec": {
+        "id": "01928e73-f7ae-7029-8805-79b59a4a7cec",
+        "opacity": 1,
+        "color": "#191114",
+        "name": "01",
+        "path": "Crimson / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7772-bcef-8baaa31871c8": {
+        "id": "01928e73-f7af-7772-bcef-8baaa31871c8",
+        "opacity": 1,
+        "color": "#0d1512",
+        "name": "01",
+        "path": "Jade / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b1-7511-8ac7-bc613d00d707": {
+        "id": "01928e73-f7b1-7511-8ac7-bc613d00d707",
+        "opacity": 1,
+        "color": "#edeef0",
+        "name": "07",
+        "path": "Slate / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-74e4-beee-e8509df00a03": {
+        "id": "01928e73-f7b0-74e4-beee-e8509df00a03",
+        "opacity": 1,
+        "color": "#1d211c",
+        "name": "07",
+        "path": "Olive / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-7a82-baf8-4689653a72bc": {
+        "id": "01928e73-f7b2-7a82-baf8-4689653a72bc",
+        "opacity": 1,
+        "color": "#ff977d",
+        "name": "06",
+        "path": "Tomato / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ad-764c-9f2b-96e144e4877a": {
+        "id": "01928e73-f7ad-764c-9f2b-96e144e4877a",
+        "opacity": 1,
+        "color": "#0d74ce",
+        "name": "06",
+        "path": "Blue / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-76fe-9482-9bb7a2ec3afe": {
+        "id": "01928e73-f7af-76fe-9482-9bb7a2ec3afe",
+        "opacity": 1,
+        "color": "#e6e7ff",
+        "name": "02",
+        "path": "Iris / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7390-ba98-4a9cec48b53b": {
+        "id": "01928e73-f7b0-7390-ba98-4a9cec48b53b",
+        "opacity": 1,
+        "color": "#f4d4f4",
+        "name": "07",
+        "path": "Plum / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7197-8f5d-20014d77f941": {
+        "id": "01928e73-f7af-7197-8f5d-20014d77f941",
+        "opacity": 1,
+        "color": "#222222",
+        "name": "01",
+        "path": "Gray / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-77a2-af5c-867936b5796c": {
+        "id": "01928e73-f7b2-77a2-af5c-867936b5796c",
+        "opacity": 1,
+        "color": "#fdbdaf",
+        "name": "03",
+        "path": "Tomato / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-731e-9eb9-08fe11f07377": {
+        "id": "01928e73-f7af-731e-9eb9-08fe11f07377",
+        "opacity": 1,
+        "color": "#8e8c99",
+        "name": "05",
+        "path": "Mauve / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-7f10-8908-a60e684bc069": {
+        "id": "01928e73-f7b2-7f10-8908-a60e684bc069",
+        "opacity": 1,
+        "color": "#291f43",
+        "name": "02",
+        "path": "Violet / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-762b-97a1-85d5b8159e89": {
+        "id": "01928e73-f7af-762b-97a1-85d5b8159e89",
+        "opacity": 1,
+        "color": "#65636d",
+        "name": "06",
+        "path": "Mauve / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-72d3-9dc7-f45fb032bf1b": {
+        "id": "01928e73-f7b0-72d3-9dc7-f45fb032bf1b",
+        "opacity": 1,
+        "color": "#b9bcb8",
+        "name": "04",
+        "path": "Olive / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-78ea-855a-26424dd60f3f": {
+        "id": "01928e73-f7ae-78ea-855a-26424dd60f3f",
+        "opacity": 1,
+        "color": "#4ccce6",
+        "name": "06",
+        "path": "Cyan / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b1-7e8a-833f-7b801848fc9d": {
+        "id": "01928e73-f7b1-7e8a-833f-7b801848fc9d",
+        "opacity": 1,
+        "color": "#1c2024",
+        "name": "07",
+        "path": "Slate / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-7e85-8cf3-2190910cbd03": {
+        "id": "01928e73-f7ae-7e85-8cf3-2190910cbd03",
+        "opacity": 1,
+        "color": "#873356",
+        "name": "04",
+        "path": "Crimson / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-7bd6-add4-06ac9d6a162c": {
+        "id": "01928e73-f7ae-7bd6-add4-06ac9d6a162c",
+        "opacity": 1,
+        "color": "#ad7f58",
+        "name": "05",
+        "path": "Brown / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7d0e-8593-4fb21b4ab58a": {
+        "id": "01928e73-f7af-7d0e-8593-4fb21b4ab58a",
+        "opacity": 1,
+        "color": "#e0dffe",
+        "name": "07",
+        "path": "Iris / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-79b0-92ee-80fda083babb": {
+        "id": "01928e73-f7b2-79b0-92ee-80fda083babb",
+        "opacity": 1,
+        "color": "#853a2d",
+        "name": "04",
+        "path": "Tomato / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7c60-ae7d-bc748dc0b842": {
+        "id": "01928e73-f7b0-7c60-ae7d-bc748dc0b842",
+        "opacity": 1,
+        "color": "#fff7f7",
+        "name": "01",
+        "path": "Red / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-738d-baa7-f772f17face9": {
+        "id": "01928e73-f7ae-738d-baa7-f772f17face9",
+        "opacity": 1,
+        "color": "#70b8ff",
+        "name": "06",
+        "path": "Blue / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7a32-a2f0-9efb6611d47f": {
+        "id": "01928e73-f7af-7a32-a2f0-9efb6611d47f",
+        "opacity": 1,
+        "color": "#eae7ec",
+        "name": "02",
+        "path": "Mauve / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7130-8a0e-04a7a823ac01": {
+        "id": "01928e73-f7b0-7130-8a0e-04a7a823ac01",
+        "opacity": 1,
+        "color": "#fff7ed",
+        "name": "01",
+        "path": "Orange / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-716d-b8be-8ddf57a51227": {
+        "id": "01928e73-f7ae-716d-b8be-8ddf57a51227",
+        "opacity": 1,
+        "color": "#381525",
+        "name": "02",
+        "path": "Crimson / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7c76-8296-bacbd5cda9e8": {
+        "id": "01928e73-f7b0-7c76-8296-bacbd5cda9e8",
+        "opacity": 1,
+        "color": "#232225",
+        "name": "02",
+        "path": "Mauve / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7eb2-bbf9-b722d2c57e25": {
+        "id": "01928e73-f7af-7eb2-bbf9-b722d2c57e25",
+        "opacity": 1,
+        "color": "#211f26",
+        "name": "07",
+        "path": "Mauve / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7162-a0d4-eb22c509d295": {
+        "id": "01928e73-f7b0-7162-a0d4-eb22c509d295",
+        "opacity": 1,
+        "color": "#fdf7fd",
+        "name": "01",
+        "path": "Plum / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-74d8-ad37-51480ae758a5": {
+        "id": "01928e73-f7b2-74d8-ad37-51480ae758a5",
+        "opacity": 1,
+        "color": "#aa99ec",
+        "name": "04",
+        "path": "Violet / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-72b1-81b9-c95c57bb72f8": {
+        "id": "01928e73-f7af-72b1-81b9-c95c57bb72f8",
+        "opacity": 1,
+        "color": "#dbd8e0",
+        "name": "03",
+        "path": "Mauve / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-7d48-81a4-f3843cdd2339": {
+        "id": "01928e73-f7ae-7d48-81a4-f3843cdd2339",
+        "opacity": 1,
+        "color": "#cb1d63",
+        "name": "06",
+        "path": "Crimson / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7ef0-9a56-cef61948e5d3": {
+        "id": "01928e73-f7af-7ef0-9a56-cef61948e5d3",
+        "opacity": 1,
+        "color": "#cbcdff",
+        "name": "03",
+        "path": "Iris / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7c05-8aa0-ff00173902b0": {
+        "id": "01928e73-f7af-7c05-8aa0-ff00173902b0",
+        "opacity": 1,
+        "color": "#b2ddb5",
+        "name": "03",
+        "path": "Grass / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-7059-9988-5e0faacd94e2": {
+        "id": "01928e73-f7ae-7059-9988-5e0faacd94e2",
+        "opacity": 1,
+        "color": "#12110f",
+        "name": "01",
+        "path": "Brown / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-7e20-a55a-4337e58e1603": {
+        "id": "01928e73-f7b2-7e20-a55a-4337e58e1603",
+        "opacity": 1,
+        "color": "#008573",
+        "name": "06",
+        "path": "Teal / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7e44-951d-87709b5732c0": {
+        "id": "01928e73-f7b0-7e44-951d-87709b5732c0",
+        "opacity": 1,
+        "color": "#953ea3",
+        "name": "06",
+        "path": "Plum / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-7005-8e68-f8cdf7220b1c": {
+        "id": "01928e73-f7b2-7005-8e68-f8cdf7220b1c",
+        "opacity": 1,
+        "color": "#fbd3cb",
+        "name": "07",
+        "path": "Tomato / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-726a-8e95-ab3b8339cae5": {
+        "id": "01928e73-f7af-726a-8e95-ab3b8339cae5",
+        "opacity": 1,
+        "color": "#3a3a3a",
+        "name": "02",
+        "path": "Gray / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7b7d-98b0-9d963250cd5f": {
+        "id": "01928e73-f7b0-7b7d-98b0-9d963250cd5f",
+        "opacity": 1,
+        "color": "#ffd1d9",
+        "name": "07",
+        "path": "Red / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-783c-b840-8ce838c5a4e0": {
+        "id": "01928e73-f7af-783c-b840-8ce838c5a4e0",
+        "opacity": 1,
+        "color": "#218358",
+        "name": "06",
+        "path": "Green / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-7309-bd36-50c205defaff": {
+        "id": "01928e73-f7ae-7309-bd36-50c205defaff",
+        "opacity": 1,
+        "color": "#3db9cf",
+        "name": "04",
+        "path": "Cyan / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-790d-a43a-d8f3dede74ea": {
+        "id": "01928e73-f7ae-790d-a43a-d8f3dede74ea",
+        "opacity": 1,
+        "color": "#004558",
+        "name": "03",
+        "path": "Cyan / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-75e6-b09f-2539c167012b": {
+        "id": "01928e73-f7b0-75e6-b09f-2539c167012b",
+        "opacity": 1,
+        "color": "#e6e9e8",
+        "name": "02",
+        "path": "Sage / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-7a90-b4cb-d4fdc1ac0496": {
+        "id": "01928e73-f7b2-7a90-b4cb-d4fdc1ac0496",
+        "opacity": 1,
+        "color": "#e2ddfe",
+        "name": "07",
+        "path": "Violet / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b1-7b6f-8d16-e325837512f1": {
+        "id": "01928e73-f7b1-7b6f-8d16-e325837512f1",
+        "opacity": 1,
+        "color": "#f3fbf9",
+        "name": "01",
+        "path": "Teal / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7eec-98c9-0ffa3df6666d": {
+        "id": "01928e73-f7b0-7eec-98c9-0ffa3df6666d",
+        "opacity": 1,
+        "color": "#eceeed",
+        "name": "07",
+        "path": "Sage / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7e17-be2b-c3cebfcd5ea2": {
+        "id": "01928e73-f7af-7e17-be2b-c3cebfcd5ea2",
+        "opacity": 1,
+        "color": "#366740",
+        "name": "04",
+        "path": "Grass / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-710b-92da-71d3dde177a3": {
+        "id": "01928e73-f7af-710b-92da-71d3dde177a3",
+        "opacity": 1,
+        "color": "#182449",
+        "name": "02",
+        "path": "Indigo / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ad-7300-ac5b-0e01a74ff25a": {
+        "id": "01928e73-f7ad-7300-ac5b-0e01a74ff25a",
+        "opacity": 1,
+        "color": "#0090ff",
+        "name": "05",
+        "path": "Blue / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b1-76d6-88c8-6d8a51b1d467": {
+        "id": "01928e73-f7b1-76d6-88c8-6d8a51b1d467",
+        "opacity": 1,
+        "color": "#f9f9fb",
+        "name": "01",
+        "path": "Slate / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-73b7-b928-c3487b424f24": {
+        "id": "01928e73-f7ae-73b7-b928-c3487b424f24",
+        "opacity": 1,
+        "color": "#3e332e",
+        "name": "07",
+        "path": "Brown / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-73c7-9d0f-67b096cdb3ec": {
+        "id": "01928e73-f7af-73c7-9d0f-67b096cdb3ec",
+        "opacity": 1,
+        "color": "#203c25",
+        "name": "07",
+        "path": "Grass / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b1-79be-b011-99e7cc25e042": {
+        "id": "01928e73-f7b1-79be-b011-99e7cc25e042",
+        "opacity": 1,
+        "color": "#a1ded2",
+        "name": "03",
+        "path": "Teal / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7e21-bee9-1f3f2c6a29e5": {
+        "id": "01928e73-f7b0-7e21-bee9-1f3f2c6a29e5",
+        "opacity": 1,
+        "color": "#ec9455",
+        "name": "04",
+        "path": "Orange / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-7978-afca-193bdaad20b8": {
+        "id": "01928e73-f7b2-7978-afca-193bdaad20b8",
+        "opacity": 1,
+        "color": "#faf8ff",
+        "name": "01",
+        "path": "Violet / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7d61-b177-3e1bbe1db3c1": {
+        "id": "01928e73-f7af-7d61-b177-3e1bbe1db3c1",
+        "opacity": 1,
+        "color": "#0f2e22",
+        "name": "02",
+        "path": "Jade / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7016-ac37-27667908f22b": {
+        "id": "01928e73-f7af-7016-ac37-27667908f22b",
+        "opacity": 1,
+        "color": "#1fd8a4",
+        "name": "06",
+        "path": "Jade / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-79e6-ab6f-a024a029f839": {
+        "id": "01928e73-f7af-79e6-ab6f-a024a029f839",
+        "opacity": 1,
+        "color": "#3dd68c",
+        "name": "06",
+        "path": "Green / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-7770-a3cc-e101950cf7ca": {
+        "id": "01928e73-f7b2-7770-a3cc-e101950cf7ca",
+        "opacity": 1,
+        "color": "#6e56cf",
+        "name": "05",
+        "path": "Violet / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7b14-8f17-e010fb76f69f": {
+        "id": "01928e73-f7af-7b14-8f17-e010fb76f69f",
+        "opacity": 1,
+        "color": "#174933",
+        "name": "03",
+        "path": "Green / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7782-afa5-519f3a785067": {
+        "id": "01928e73-f7b0-7782-afa5-519f3a785067",
+        "opacity": 1,
+        "color": "#402060",
+        "name": "07",
+        "path": "Purple / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-726e-902b-a0dc3d9e6c48": {
+        "id": "01928e73-f7ae-726e-902b-a0dc3d9e6c48",
+        "opacity": 1,
+        "color": "#815e46",
+        "name": "06",
+        "path": "Brown / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-762f-b10f-4c7da83eb0e8": {
+        "id": "01928e73-f7b0-762f-b10f-4c7da83eb0e8",
+        "opacity": 1,
+        "color": "#191111",
+        "name": "01",
+        "path": "Red / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7a55-9044-81b50be7797a": {
+        "id": "01928e73-f7af-7a55-9044-81b50be7797a",
+        "opacity": 1,
+        "color": "#208368",
+        "name": "06",
+        "path": "Jade / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-70f6-87e3-172eb8882142": {
+        "id": "01928e73-f7b0-70f6-87e3-172eb8882142",
+        "opacity": 1,
+        "color": "#dad9d6",
+        "name": "03",
+        "path": "Sand / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-756d-b259-67d3bcdcba84": {
+        "id": "01928e73-f7af-756d-b259-67d3bcdcba84",
+        "opacity": 1,
+        "color": "#faf9fb",
+        "name": "01",
+        "path": "Mauve / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-7512-b4c5-ea366c7983de": {
+        "id": "01928e73-f7ae-7512-b4c5-ea366c7983de",
+        "opacity": 1,
+        "color": "#fdd3e8",
+        "name": "07",
+        "path": "Crimson / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7c92-b00d-3ed35e1b66bb": {
+        "id": "01928e73-f7b0-7c92-b00d-3ed35e1b66bb",
+        "opacity": 1,
+        "color": "#17120e",
+        "name": "01",
+        "path": "Orange / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-78e9-a3ab-9c0d6160841e": {
+        "id": "01928e73-f7b0-78e9-a3ab-9c0d6160841e",
+        "opacity": 1,
+        "color": "#1a211e",
+        "name": "07",
+        "path": "Sage / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7833-8b0a-901065e330f9": {
+        "id": "01928e73-f7b0-7833-8b0a-901065e330f9",
+        "opacity": 1,
+        "color": "#eceeec",
+        "name": "07",
+        "path": "Olive / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7e81-b0dd-08e94a9b6ef2": {
+        "id": "01928e73-f7af-7e81-b0dd-08e94a9b6ef2",
+        "opacity": 1,
+        "color": "#acdec8",
+        "name": "03",
+        "path": "Jade / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7e5f-83ab-e27cb056f0b9": {
+        "id": "01928e73-f7af-7e5f-83ab-e27cb056f0b9",
+        "opacity": 1,
+        "color": "#646464",
+        "name": "04",
+        "path": "Gray / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7819-bbd0-8bada155a56d": {
+        "id": "01928e73-f7af-7819-bbd0-8bada155a56d",
+        "opacity": 1,
+        "color": "#f4fbf6",
+        "name": "01",
+        "path": "Green / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-7725-a032-6fb00167dfec": {
+        "id": "01928e73-f7b2-7725-a032-6fb00167dfec",
+        "opacity": 1,
+        "color": "#6e56cf",
+        "name": "05",
+        "path": "Violet / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7801-9ac6-9207001cfd5f": {
+        "id": "01928e73-f7af-7801-9ac6-9207001cfd5f",
+        "opacity": 1,
+        "color": "#1d3b31",
+        "name": "07",
+        "path": "Jade / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-70da-bb8d-729e011621bd": {
+        "id": "01928e73-f7b0-70da-bb8d-729e011621bd",
+        "opacity": 1,
+        "color": "#181118",
+        "name": "01",
+        "path": "Plum / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7c7c-ad0f-896cfa4022e9": {
+        "id": "01928e73-f7af-7c7c-ad0f-896cfa4022e9",
+        "opacity": 1,
+        "color": "#121113",
+        "name": "01",
+        "path": "Mauve / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7067-b68a-44f6fb216328": {
+        "id": "01928e73-f7b0-7067-b68a-44f6fb216328",
+        "opacity": 1,
+        "color": "#d7dad7",
+        "name": "03",
+        "path": "Olive / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b1-71e5-994b-3d8d39c15051": {
+        "id": "01928e73-f7b1-71e5-994b-3d8d39c15051",
+        "opacity": 1,
+        "color": "#111113",
+        "name": "01",
+        "path": "Slate / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b1-75db-b633-7e7b9ee7f799": {
+        "id": "01928e73-f7b1-75db-b633-7e7b9ee7f799",
+        "opacity": 1,
+        "color": "#ccf3ea",
+        "name": "02",
+        "path": "Teal / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-76fe-9d88-770cc2e1482b": {
+        "id": "01928e73-f7b0-76fe-9d88-770cc2e1482b",
+        "opacity": 1,
+        "color": "#202221",
+        "name": "02",
+        "path": "Sage / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-70e8-96fe-3882b7b6c272": {
+        "id": "01928e73-f7b0-70e8-96fe-3882b7b6c272",
+        "opacity": 1,
+        "color": "#adb5b2",
+        "name": "06",
+        "path": "Sage / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7cdd-b36f-704da7760668": {
+        "id": "01928e73-f7af-7cdd-b36f-704da7760668",
+        "opacity": 1,
+        "color": "#f4fbf7",
+        "name": "01",
+        "path": "Jade / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-785b-8651-830d092e042e": {
+        "id": "01928e73-f7b0-785b-8651-830d092e042e",
+        "opacity": 1,
+        "color": "#ab4aba",
+        "name": "05",
+        "path": "Plum / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-75f0-840f-65aa919ef342": {
+        "id": "01928e73-f7ae-75f0-840f-65aa919ef342",
+        "opacity": 1,
+        "color": "#00a2c7",
+        "name": "05",
+        "path": "Cyan / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-772e-9c38-e24185644c97": {
+        "id": "01928e73-f7b0-772e-9c38-e24185644c97",
+        "opacity": 1,
+        "color": "#734079",
+        "name": "04",
+        "path": "Plum / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7d21-a467-4efb0a946262": {
+        "id": "01928e73-f7b0-7d21-a467-4efb0a946262",
+        "opacity": 1,
+        "color": "#ff9592",
+        "name": "06",
+        "path": "Red / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ad-79bb-b233-b0c307aa5b27": {
+        "id": "01928e73-f7ad-79bb-b233-b0c307aa5b27",
+        "opacity": 1,
+        "color": "#d5efff",
+        "name": "02",
+        "path": "Blue / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7a85-955d-e5ea04370950": {
+        "id": "01928e73-f7b0-7a85-955d-e5ea04370950",
+        "opacity": 1,
+        "color": "#868e8b",
+        "name": "05",
+        "path": "Sage / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b1-7767-bd68-bed2a82a078a": {
+        "id": "01928e73-f7b1-7767-bd68-bed2a82a078a",
+        "opacity": 1,
+        "color": "#43484e",
+        "name": "04",
+        "path": "Slate / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7e07-9a22-9bc74fbfe77f": {
+        "id": "01928e73-f7af-7e07-9a22-9bc74fbfe77f",
+        "opacity": 1,
+        "color": "#b4b4b4",
+        "name": "04",
+        "path": "Gray / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-7fd2-a99c-38d679f7b43b": {
+        "id": "01928e73-f7b2-7fd2-a99c-38d679f7b43b",
+        "opacity": 1,
+        "color": "#ec8e7b",
+        "name": "04",
+        "path": "Tomato / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7b58-9674-f1f7c871dbd0": {
+        "id": "01928e73-f7af-7b58-9674-f1f7c871dbd0",
+        "opacity": 1,
+        "color": "#3e63dd",
+        "name": "05",
+        "path": "Indigo / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-7c48-a754-da9354666704": {
+        "id": "01928e73-f7b2-7c48-a754-da9354666704",
+        "opacity": 1,
+        "color": "#56468b",
+        "name": "04",
+        "path": "Violet / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-78de-b9ba-659326ce9b33": {
+        "id": "01928e73-f7ae-78de-b9ba-659326ce9b33",
+        "opacity": 1,
+        "color": "#ad7f58",
+        "name": "05",
+        "path": "Brown / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-73b5-a3a4-41d7627fcc9c": {
+        "id": "01928e73-f7ae-73b5-a3a4-41d7627fcc9c",
+        "opacity": 1,
+        "color": "#0d2847",
+        "name": "02",
+        "path": "Blue / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7cdf-b69d-176d10e4450c": {
+        "id": "01928e73-f7af-7cdf-b69d-176d10e4450c",
+        "opacity": 1,
+        "color": "#adf0d4",
+        "name": "07",
+        "path": "Jade / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-744a-b34a-2c6c6fd4f298": {
+        "id": "01928e73-f7b0-744a-b34a-2c6c6fd4f298",
+        "opacity": 1,
+        "color": "#e9e8e6",
+        "name": "02",
+        "path": "Sand / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-7637-99c8-f4840a4f710d": {
+        "id": "01928e73-f7ae-7637-99c8-f4840a4f710d",
+        "opacity": 1,
+        "color": "#0b161a",
+        "name": "01",
+        "path": "Cyan / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-769a-a81b-a3275e9fde23": {
+        "id": "01928e73-f7af-769a-a81b-a3275e9fde23",
+        "opacity": 1,
+        "color": "#202248",
+        "name": "02",
+        "path": "Iris / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7dab-946d-59cad0ac381f": {
+        "id": "01928e73-f7b0-7dab-946d-59cad0ac381f",
+        "opacity": 1,
+        "color": "#cc4e00",
+        "name": "06",
+        "path": "Orange / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-782a-9321-f99d3fdb8049": {
+        "id": "01928e73-f7af-782a-9321-f99d3fdb8049",
+        "opacity": 1,
+        "color": "#246854",
+        "name": "04",
+        "path": "Jade / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-7821-b435-9c09d77aa1d6": {
+        "id": "01928e73-f7b2-7821-b435-9c09d77aa1d6",
+        "opacity": 1,
+        "color": "#0bd8b6",
+        "name": "06",
+        "path": "Teal / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-70f5-adc0-fa00205bd74b": {
+        "id": "01928e73-f7b0-70f5-adc0-fa00205bd74b",
+        "opacity": 1,
+        "color": "#512454",
+        "name": "03",
+        "path": "Plum / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7b18-bb6a-33e1e1a8b167": {
+        "id": "01928e73-f7af-7b18-bb6a-33e1e1a8b167",
+        "opacity": 1,
+        "color": "#11131f",
+        "name": "01",
+        "path": "Indigo / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b1-7f85-8390-e20f62b3d3b7": {
+        "id": "01928e73-f7b1-7f85-8390-e20f62b3d3b7",
+        "opacity": 1,
+        "color": "#e8e8ec",
+        "name": "02",
+        "path": "Slate / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7738-806c-258c0323bc89": {
+        "id": "01928e73-f7af-7738-806c-258c0323bc89",
+        "opacity": 1,
+        "color": "#5b5bd6",
+        "name": "05",
+        "path": "Iris / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b1-70f3-a40d-dc2c2f25b242": {
+        "id": "01928e73-f7b1-70f3-a40d-dc2c2f25b242",
+        "opacity": 1,
+        "color": "#212225",
+        "name": "02",
+        "path": "Slate / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7b76-8e8e-d392070d3f19": {
+        "id": "01928e73-f7b0-7b76-8e8e-d392070d3f19",
+        "opacity": 1,
+        "color": "#21201c",
+        "name": "07",
+        "path": "Sand / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7b4c-b421-4692adb1ee03": {
+        "id": "01928e73-f7af-7b4c-b421-4692adb1ee03",
+        "opacity": 1,
+        "color": "#c2f0c2",
+        "name": "07",
+        "path": "Grass / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-7350-8a5b-585d2a2f7770": {
+        "id": "01928e73-f7ae-7350-8a5b-585d2a2f7770",
+        "opacity": 1,
+        "color": "#9ddde7",
+        "name": "03",
+        "path": "Cyan / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7fd5-8b35-83d7362e897f": {
+        "id": "01928e73-f7b0-7fd5-8b35-83d7362e897f",
+        "opacity": 1,
+        "color": "#63635e",
+        "name": "06",
+        "path": "Sand / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7132-81b1-dde2e589d18d": {
+        "id": "01928e73-f7af-7132-81b1-dde2e589d18d",
+        "opacity": 1,
+        "color": "#d9d9d9",
+        "name": "02",
+        "path": "Gray / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-775c-8148-d384b0e19dc5": {
+        "id": "01928e73-f7b2-775c-8148-d384b0e19dc5",
+        "opacity": 1,
+        "color": "#adf0dd",
+        "name": "07",
+        "path": "Teal / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-751e-b91b-33249cb61787": {
+        "id": "01928e73-f7b0-751e-b91b-33249cb61787",
+        "opacity": 1,
+        "color": "#ffdfb5",
+        "name": "02",
+        "path": "Orange / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-7ddc-b3dc-09e3cde5ba63": {
+        "id": "01928e73-f7b2-7ddc-b3dc-09e3cde5ba63",
+        "opacity": 1,
+        "color": "#12a594",
+        "name": "05",
+        "path": "Teal / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7146-9430-0380cf02507a": {
+        "id": "01928e73-f7b0-7146-9430-0380cf02507a",
+        "opacity": 1,
+        "color": "#f9f9f8",
+        "name": "01",
+        "path": "Sand / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7ff6-9698-bd59175d0833": {
+        "id": "01928e73-f7af-7ff6-9698-bd59175d0833",
+        "opacity": 1,
+        "color": "#5753c6",
+        "name": "06",
+        "path": "Iris / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ad-7bb2-8157-044c301f38c2": {
+        "id": "01928e73-f7ad-7bb2-8157-044c301f38c2",
+        "opacity": 1,
+        "color": "#f4faff",
+        "name": "01",
+        "path": "Blue / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-7405-9edb-09d8020a0ee1": {
+        "id": "01928e73-f7ae-7405-9edb-09d8020a0ee1",
+        "opacity": 1,
+        "color": "#205d9e",
+        "name": "04",
+        "path": "Blue / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b1-7980-aeb6-fea9348e5655": {
+        "id": "01928e73-f7b1-7980-aeb6-fea9348e5655",
+        "opacity": 1,
+        "color": "#8b8d98",
+        "name": "05",
+        "path": "Slate / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7789-ae69-ca47221f1c92": {
+        "id": "01928e73-f7b0-7789-ae69-ca47221f1c92",
+        "opacity": 1,
+        "color": "#e7e9e7",
+        "name": "02",
+        "path": "Olive / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7900-b421-33ee0e03ffb2": {
+        "id": "01928e73-f7af-7900-b421-33ee0e03ffb2",
+        "opacity": 1,
+        "color": "#303374",
+        "name": "03",
+        "path": "Iris / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-7084-bd8a-593fedc4fc67": {
+        "id": "01928e73-f7b2-7084-bd8a-593fedc4fc67",
+        "opacity": 1,
+        "color": "#1c6961",
+        "name": "04",
+        "path": "Teal / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7031-83aa-8fa6792fba2b": {
+        "id": "01928e73-f7af-7031-83aa-8fa6792fba2b",
+        "opacity": 1,
+        "color": "#25482d",
+        "name": "03",
+        "path": "Grass / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-72f5-9470-97c27a36abd4": {
+        "id": "01928e73-f7ae-72f5-9470-97c27a36abd4",
+        "opacity": 1,
+        "color": "#00a2c7",
+        "name": "05",
+        "path": "Cyan / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-77d1-a190-2e043e31e716": {
+        "id": "01928e73-f7af-77d1-a190-2e043e31e716",
+        "opacity": 1,
+        "color": "#6e6e6e",
+        "name": "03",
+        "path": "Gray / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7f8e-95a7-bdf8e00b4575": {
+        "id": "01928e73-f7af-7f8e-95a7-bdf8e00b4575",
+        "opacity": 1,
+        "color": "#1b2a1e",
+        "name": "02",
+        "path": "Grass / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7115-8473-340a409859bc": {
+        "id": "01928e73-f7b0-7115-8473-340a409859bc",
+        "opacity": 1,
+        "color": "#5f6563",
+        "name": "06",
+        "path": "Sage / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b1-767c-9493-d048d13a2476": {
+        "id": "01928e73-f7b1-767c-9493-d048d13a2476",
+        "opacity": 1,
+        "color": "#2e3135",
+        "name": "03",
+        "path": "Slate / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b1-7522-8998-6229220a7009": {
+        "id": "01928e73-f7b1-7522-8998-6229220a7009",
+        "opacity": 1,
+        "color": "#111110",
+        "name": "01",
+        "path": "Sand / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-77cd-bd9f-48d2d271a71d": {
+        "id": "01928e73-f7af-77cd-bd9f-48d2d271a71d",
+        "opacity": 1,
+        "color": "#3a4f97",
+        "name": "04",
+        "path": "Indigo / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b1-7e19-8429-7f2c3e0eed37": {
+        "id": "01928e73-f7b1-7e19-8429-7f2c3e0eed37",
+        "opacity": 1,
+        "color": "#696e77",
+        "name": "05",
+        "path": "Slate / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-7d38-88da-b0ef23e3a175": {
+        "id": "01928e73-f7b2-7d38-88da-b0ef23e3a175",
+        "opacity": 1,
+        "color": "#ffdcd3",
+        "name": "02",
+        "path": "Tomato / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-72cc-abc6-fec14877ad4f": {
+        "id": "01928e73-f7af-72cc-abc6-fec14877ad4f",
+        "opacity": 1,
+        "color": "#56ba9f",
+        "name": "04",
+        "path": "Jade / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-74a7-9e2d-cc0f4048aa89": {
+        "id": "01928e73-f7b2-74a7-9e2d-cc0f4048aa89",
+        "opacity": 1,
+        "color": "#14121f",
+        "name": "01",
+        "path": "Violet / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-70a8-8a7d-1517c347ab3e": {
+        "id": "01928e73-f7b0-70a8-8a7d-1517c347ab3e",
+        "opacity": 1,
+        "color": "#ecd9fa",
+        "name": "07",
+        "path": "Purple / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7623-85a7-d566a47f64a4": {
+        "id": "01928e73-f7b0-7623-85a7-d566a47f64a4",
+        "opacity": 1,
+        "color": "#60655f",
+        "name": "06",
+        "path": "Olive / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-7f7a-bd65-b58a475f6931": {
+        "id": "01928e73-f7ae-7f7a-bd65-b58a475f6931",
+        "opacity": 1,
+        "color": "#f0e4d9",
+        "name": "02",
+        "path": "Brown / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-79ae-9cce-a26826b0d787": {
+        "id": "01928e73-f7ae-79ae-9cce-a26826b0d787",
+        "opacity": 1,
+        "color": "#004074",
+        "name": "03",
+        "path": "Blue / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-71e8-a044-47aa05fc8ea3": {
+        "id": "01928e73-f7ae-71e8-a044-47aa05fc8ea3",
+        "opacity": 1,
+        "color": "#0d1520",
+        "name": "01",
+        "path": "Blue / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b1-783e-8d11-3c6ae2243535": {
+        "id": "01928e73-f7b1-783e-8d11-3c6ae2243535",
+        "opacity": 1,
+        "color": "#60646c",
+        "name": "06",
+        "path": "Slate / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-75dd-a841-14f66aafa00a": {
+        "id": "01928e73-f7ae-75dd-a841-14f66aafa00a",
+        "opacity": 1,
+        "color": "#621639",
+        "name": "07",
+        "path": "Crimson / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7021-bebc-678731c45a07": {
+        "id": "01928e73-f7b0-7021-bebc-678731c45a07",
+        "opacity": 1,
+        "color": "#f8faf8",
+        "name": "01",
+        "path": "Olive / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-7a1c-9aab-e536740d910a": {
+        "id": "01928e73-f7ae-7a1c-9aab-e536740d910a",
+        "opacity": 1,
+        "color": "#0090ff",
+        "name": "05",
+        "path": "Blue / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-7056-aed7-cf2c6b81cd7a": {
+        "id": "01928e73-f7ae-7056-aed7-cf2c6b81cd7a",
+        "opacity": 1,
+        "color": "#107d98",
+        "name": "06",
+        "path": "Cyan / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7644-bd54-520e66bdbaea": {
+        "id": "01928e73-f7b0-7644-bd54-520e66bdbaea",
+        "opacity": 1,
+        "color": "#53195d",
+        "name": "07",
+        "path": "Plum / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7a4f-82a2-f0f466dcfc1b": {
+        "id": "01928e73-f7af-7a4f-82a2-f0f466dcfc1b",
+        "opacity": 1,
+        "color": "#9b9ef0",
+        "name": "04",
+        "path": "Iris / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7e6d-8fca-845672958a5b": {
+        "id": "01928e73-f7b0-7e6d-8fca-845672958a5b",
+        "opacity": 1,
+        "color": "#d19dff",
+        "name": "06",
+        "path": "Purple / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-7478-b48c-4111bd9bd569": {
+        "id": "01928e73-f7b2-7478-b48c-4111bd9bd569",
+        "opacity": 1,
+        "color": "#d4cafe",
+        "name": "03",
+        "path": "Violet / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b1-7bb8-8a96-e235f648390d": {
+        "id": "01928e73-f7b1-7bb8-8a96-e235f648390d",
+        "opacity": 1,
+        "color": "#b0b4ba",
+        "name": "06",
+        "path": "Slate / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7071-934d-eb8d8fbfe65c": {
+        "id": "01928e73-f7b0-7071-934d-eb8d8fbfe65c",
+        "opacity": 1,
+        "color": "#18111b",
+        "name": "01",
+        "path": "Purple / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-72d8-be3c-274fbc4e2017": {
+        "id": "01928e73-f7b0-72d8-be3c-274fbc4e2017",
+        "opacity": 1,
+        "color": "#212220",
+        "name": "02",
+        "path": "Olive / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-7d38-bde9-e77bb2458044": {
+        "id": "01928e73-f7b2-7d38-bde9-e77bb2458044",
+        "opacity": 1,
+        "color": "#baa7ff",
+        "name": "06",
+        "path": "Violet / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7cd0-a807-77e7bfe52130": {
+        "id": "01928e73-f7b0-7cd0-a807-77e7bfe52130",
+        "opacity": 1,
+        "color": "#8145b5",
+        "name": "06",
+        "path": "Purple / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-79ca-b12c-2aaf58760562": {
+        "id": "01928e73-f7ae-79ca-b12c-2aaf58760562",
+        "opacity": 1,
+        "color": "#fef7f9",
+        "name": "01",
+        "path": "Crimson / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-70be-9b95-68a0b1617619": {
+        "id": "01928e73-f7b0-70be-9b95-68a0b1617619",
+        "opacity": 1,
+        "color": "#582d1d",
+        "name": "07",
+        "path": "Orange / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-7a86-bd13-5cc601254047": {
+        "id": "01928e73-f7ae-7a86-bd13-5cc601254047",
+        "opacity": 1,
+        "color": "#e93d82",
+        "name": "05",
+        "path": "Crimson / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b1-72b4-ab81-bfda06abe609": {
+        "id": "01928e73-f7b1-72b4-ab81-bfda06abe609",
+        "opacity": 1,
+        "color": "#d9d9e0",
+        "name": "03",
+        "path": "Slate / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7196-94e6-df20dc6295d1": {
+        "id": "01928e73-f7af-7196-94e6-df20dc6295d1",
+        "opacity": 1,
+        "color": "#adddc0",
+        "name": "03",
+        "path": "Green / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-7f2e-8eeb-dd4fb90aba86": {
+        "id": "01928e73-f7ae-7f2e-8eeb-dd4fb90aba86",
+        "opacity": 1,
+        "color": "#fcf9f6",
+        "name": "01",
+        "path": "Brown / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-7ada-b8cf-3f1b866d5166": {
+        "id": "01928e73-f7ae-7ada-b8cf-3f1b866d5166",
+        "opacity": 1,
+        "color": "#cea37e",
+        "name": "04",
+        "path": "Brown / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-76bb-8585-72717875592d": {
+        "id": "01928e73-f7b2-76bb-8585-72717875592d",
+        "opacity": 1,
+        "color": "#d13415",
+        "name": "06",
+        "path": "Tomato / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7389-8619-e05187853a5f": {
+        "id": "01928e73-f7b0-7389-8619-e05187853a5f",
+        "opacity": 1,
+        "color": "#f76b15",
+        "name": "05",
+        "path": "Orange / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7b8f-804e-5445fc95058c": {
+        "id": "01928e73-f7b0-7b8f-804e-5445fc95058c",
+        "opacity": 1,
+        "color": "#6f6d78",
+        "name": "05",
+        "path": "Mauve / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7de2-b34f-d4737db463b7": {
+        "id": "01928e73-f7af-7de2-b34f-d4737db463b7",
+        "opacity": 1,
+        "color": "#d6f1e3",
+        "name": "02",
+        "path": "Jade / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7e9e-ab61-42056396a67d": {
+        "id": "01928e73-f7b0-7e9e-ab61-42056396a67d",
+        "opacity": 1,
+        "color": "#afb5ad",
+        "name": "06",
+        "path": "Olive / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-7b6b-a61e-8ccf860bfd02": {
+        "id": "01928e73-f7ae-7b6b-a61e-8ccf860bfd02",
+        "opacity": 1,
+        "color": "#ff92ad",
+        "name": "06",
+        "path": "Crimson / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7bbb-9600-6fb5726066a8": {
+        "id": "01928e73-f7af-7bbb-9600-6fb5726066a8",
+        "opacity": 1,
+        "color": "#d6e1ff",
+        "name": "07",
+        "path": "Indigo / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-79ef-9620-431581ad4f9c": {
+        "id": "01928e73-f7ae-79ef-9620-431581ad4f9c",
+        "opacity": 1,
+        "color": "#082c36",
+        "name": "02",
+        "path": "Cyan / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7a26-88fa-79ae2394668e": {
+        "id": "01928e73-f7b0-7a26-88fa-79ae2394668e",
+        "opacity": 1,
+        "color": "#b5b2bc",
+        "name": "06",
+        "path": "Mauve / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-7363-ac67-bc367a081693": {
+        "id": "01928e73-f7ae-7363-ac67-bc367a081693",
+        "opacity": 1,
+        "color": "#f3bed1",
+        "name": "03",
+        "path": "Crimson / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7d52-9645-1ed9d418b0ce": {
+        "id": "01928e73-f7af-7d52-9645-1ed9d418b0ce",
+        "opacity": 1,
+        "color": "#202020",
+        "name": "05",
+        "path": "Gray / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-78b7-a012-db0ff9df549d": {
+        "id": "01928e73-f7af-78b7-a012-db0ff9df549d",
+        "opacity": 1,
+        "color": "#3a5bc7",
+        "name": "06",
+        "path": "Indigo / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7afe-96d0-d5e688163cfd": {
+        "id": "01928e73-f7af-7afe-96d0-d5e688163cfd",
+        "opacity": 1,
+        "color": "#28684a",
+        "name": "04",
+        "path": "Green / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b1-78c1-b2e3-c2d3b85d71d7": {
+        "id": "01928e73-f7b1-78c1-b2e3-c2d3b85d71d7",
+        "opacity": 1,
+        "color": "#eeeeec",
+        "name": "07",
+        "path": "Sand / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b1-787c-bb26-96eb88a03112": {
+        "id": "01928e73-f7b1-787c-bb26-96eb88a03112",
+        "opacity": 1,
+        "color": "#53b9ab",
+        "name": "04",
+        "path": "Teal / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-77e7-a21d-2acd4d3161ef": {
+        "id": "01928e73-f7af-77e7-a21d-2acd4d3161ef",
+        "opacity": 1,
+        "color": "#d6f1df",
+        "name": "02",
+        "path": "Green / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b1-70f0-b906-0cc584c1ac90": {
+        "id": "01928e73-f7b1-70f0-b906-0cc584c1ac90",
+        "opacity": 1,
+        "color": "#31312e",
+        "name": "03",
+        "path": "Sand / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-7921-9ac9-758e6dd395aa": {
+        "id": "01928e73-f7b2-7921-9ac9-758e6dd395aa",
+        "opacity": 1,
+        "color": "#12a594",
+        "name": "05",
+        "path": "Teal / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-775e-945d-4f1399bfea29": {
+        "id": "01928e73-f7ae-775e-945d-4f1399bfea29",
+        "opacity": 1,
+        "color": "#dbb594",
+        "name": "06",
+        "path": "Brown / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7fa7-87ae-31b51e397036": {
+        "id": "01928e73-f7b0-7fa7-87ae-31b51e397036",
+        "opacity": 1,
+        "color": "#ce2c31",
+        "name": "06",
+        "path": "Red / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7bd5-b740-4f341219c2e5": {
+        "id": "01928e73-f7b0-7bd5-b740-4f341219c2e5",
+        "opacity": 1,
+        "color": "#454843",
+        "name": "04",
+        "path": "Olive / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7f57-aace-cd2b0280f0b8": {
+        "id": "01928e73-f7b0-7f57-aace-cd2b0280f0b8",
+        "opacity": 1,
+        "color": "#2f312e",
+        "name": "03",
+        "path": "Olive / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-785f-8bac-743b9052aac0": {
+        "id": "01928e73-f7b0-785f-8bac-743b9052aac0",
+        "opacity": 1,
+        "color": "#ffc182",
+        "name": "03",
+        "path": "Orange / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-76cc-8475-627182826e19": {
+        "id": "01928e73-f7ae-76cc-8475-627182826e19",
+        "opacity": 1,
+        "color": "#113264",
+        "name": "07",
+        "path": "Blue / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-71b5-951e-1cd435025a45": {
+        "id": "01928e73-f7b0-71b5-951e-1cd435025a45",
+        "opacity": 1,
+        "color": "#e9c2ec",
+        "name": "03",
+        "path": "Plum / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7368-905b-aa203b128e4c": {
+        "id": "01928e73-f7af-7368-905b-aa203b128e4c",
+        "opacity": 1,
+        "color": "#f7f9ff",
+        "name": "01",
+        "path": "Indigo / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7fe2-945a-9c1c11172c3a": {
+        "id": "01928e73-f7b0-7fe2-945a-9c1c11172c3a",
+        "opacity": 1,
+        "color": "#f7f9f8",
+        "name": "01",
+        "path": "Sage / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-76bf-9c92-a1023f931019": {
+        "id": "01928e73-f7b0-76bf-9c92-a1023f931019",
+        "opacity": 1,
+        "color": "#f2e2fc",
+        "name": "02",
+        "path": "Purple / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-727c-808b-283c00617624": {
+        "id": "01928e73-f7b0-727c-808b-283c00617624",
+        "opacity": 1,
+        "color": "#cf91d8",
+        "name": "04",
+        "path": "Plum / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-750b-bf35-f7a98f963bc6": {
+        "id": "01928e73-f7b2-750b-bf35-f7a98f963bc6",
+        "opacity": 1,
+        "color": "#3c2e69",
+        "name": "03",
+        "path": "Violet / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-77d4-af9f-369256ada8a2": {
+        "id": "01928e73-f7af-77d4-af9f-369256ada8a2",
+        "opacity": 1,
+        "color": "#f5fbf5",
+        "name": "01",
+        "path": "Grass / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-7a92-aa91-4cb06ff447c6": {
+        "id": "01928e73-f7ae-7a92-aa91-4cb06ff447c6",
+        "opacity": 1,
+        "color": "#3e3128",
+        "name": "03",
+        "path": "Brown / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7acc-b790-c0461fb3d001": {
+        "id": "01928e73-f7af-7acc-b790-c0461fb3d001",
+        "opacity": 1,
+        "color": "#30a46c",
+        "name": "05",
+        "path": "Green / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7ef1-8a90-cfcd9e486a57": {
+        "id": "01928e73-f7af-7ef1-8a90-cfcd9e486a57",
+        "opacity": 1,
+        "color": "#272962",
+        "name": "07",
+        "path": "Iris / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-76e4-944c-485af24a6135": {
+        "id": "01928e73-f7b0-76e4-944c-485af24a6135",
+        "opacity": 1,
+        "color": "#ab4aba",
+        "name": "05",
+        "path": "Plum / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7624-baca-6f8a3af555c5": {
+        "id": "01928e73-f7af-7624-baca-6f8a3af555c5",
+        "opacity": 1,
+        "color": "#253974",
+        "name": "03",
+        "path": "Indigo / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7031-aa2a-cfdc53aab3a6": {
+        "id": "01928e73-f7b0-7031-aa2a-cfdc53aab3a6",
+        "opacity": 1,
+        "color": "#611623",
+        "name": "03",
+        "path": "Red / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-7a1e-8457-e98459eb8751": {
+        "id": "01928e73-f7ae-7a1e-8457-e98459eb8751",
+        "opacity": 1,
+        "color": "#614a39",
+        "name": "04",
+        "path": "Brown / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7810-bd0e-47dd43601f06": {
+        "id": "01928e73-f7af-7810-bd0e-47dd43601f06",
+        "opacity": 1,
+        "color": "#65ba74",
+        "name": "04",
+        "path": "Grass / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7be0-9467-e548aa2987c3": {
+        "id": "01928e73-f7b0-7be0-9467-e548aa2987c3",
+        "opacity": 1,
+        "color": "#ffdbdc",
+        "name": "02",
+        "path": "Red / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-74d0-8e0f-9eee9f977395": {
+        "id": "01928e73-f7b0-74d0-8e0f-9eee9f977395",
+        "opacity": 1,
+        "color": "#101211",
+        "name": "01",
+        "path": "Sage / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-736b-b7cd-1d974ffea8b6": {
+        "id": "01928e73-f7b0-736b-b7cd-1d974ffea8b6",
+        "opacity": 1,
+        "color": "#eeeef0",
+        "name": "07",
+        "path": "Mauve / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-72c6-a5ac-a5b67125adfa": {
+        "id": "01928e73-f7b0-72c6-a5ac-a5b67125adfa",
+        "opacity": 1,
+        "color": "#e5484d",
+        "name": "05",
+        "path": "Red / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-77d1-8d4a-0fa6f4f5d79d": {
+        "id": "01928e73-f7b2-77d1-8d4a-0fa6f4f5d79d",
+        "opacity": 1,
+        "color": "#0d1514",
+        "name": "01",
+        "path": "Teal / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-778a-92fc-0c74a61d8454": {
+        "id": "01928e73-f7af-778a-92fc-0c74a61d8454",
+        "opacity": 1,
+        "color": "#e1e9ff",
+        "name": "02",
+        "path": "Indigo / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ad-7d5e-9ce5-e6b283d69c66": {
+        "id": "01928e73-f7ad-7d5e-9ce5-e6b283d69c66",
+        "opacity": 1,
+        "color": "#acd8fc",
+        "name": "03",
+        "path": "Blue / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-78c6-9c69-99b30007f51f": {
+        "id": "01928e73-f7ae-78c6-9c69-99b30007f51f",
+        "opacity": 1,
+        "color": "#28211d",
+        "name": "02",
+        "path": "Brown / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7a87-b375-0e027aa64c0f": {
+        "id": "01928e73-f7b0-7a87-b375-0e027aa64c0f",
+        "opacity": 1,
+        "color": "#ffa057",
+        "name": "06",
+        "path": "Orange / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-79f3-ba69-d38efb2eb317": {
+        "id": "01928e73-f7b0-79f3-ba69-d38efb2eb317",
+        "opacity": 1,
+        "color": "#111210",
+        "name": "01",
+        "path": "Olive / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-793d-a570-16742c17a603": {
+        "id": "01928e73-f7b0-793d-a570-16742c17a603",
+        "opacity": 1,
+        "color": "#fdbdbe",
+        "name": "03",
+        "path": "Red / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-7f69-9fe6-6d503fc52313": {
+        "id": "01928e73-f7b2-7f69-9fe6-6d503fc52313",
+        "opacity": 1,
+        "color": "#391714",
+        "name": "02",
+        "path": "Tomato / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7f1c-857d-2a06cce1e410": {
+        "id": "01928e73-f7b0-7f1c-857d-2a06cce1e410",
+        "opacity": 1,
+        "color": "#664282",
+        "name": "04",
+        "path": "Purple / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7224-ae8a-1da17694fe0f": {
+        "id": "01928e73-f7af-7224-ae8a-1da17694fe0f",
+        "opacity": 1,
+        "color": "#f0f0f0",
+        "name": "01",
+        "path": "Gray / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-76f0-b0ec-296cda3171f5": {
+        "id": "01928e73-f7b0-76f0-b0ec-296cda3171f5",
+        "opacity": 1,
+        "color": "#562800",
+        "name": "03",
+        "path": "Orange / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-7385-a161-96a614928bca": {
+        "id": "01928e73-f7ae-7385-a161-96a614928bca",
+        "opacity": 1,
+        "color": "#fedce7",
+        "name": "02",
+        "path": "Crimson / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7236-b678-8e3cd3ab96c3": {
+        "id": "01928e73-f7b0-7236-b678-8e3cd3ab96c3",
+        "opacity": 1,
+        "color": "#8c333a",
+        "name": "04",
+        "path": "Red / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7626-be14-6c100468cc9f": {
+        "id": "01928e73-f7af-7626-be14-6c100468cc9f",
+        "opacity": 1,
+        "color": "#46a758",
+        "name": "05",
+        "path": "Grass / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7c23-8869-8ae177386d2b": {
+        "id": "01928e73-f7af-7c23-8869-8ae177386d2b",
+        "opacity": 1,
+        "color": "#2a7e3b",
+        "name": "06",
+        "path": "Grass / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7550-80b2-ce4c771677b5": {
+        "id": "01928e73-f7b0-7550-80b2-ce4c771677b5",
+        "opacity": 1,
+        "color": "#e5484d",
+        "name": "05",
+        "path": "Red / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-7c44-bff7-ad6d3a2245a0": {
+        "id": "01928e73-f7b2-7c44-bff7-ad6d3a2245a0",
+        "opacity": 1,
+        "color": "#5e1c16",
+        "name": "03",
+        "path": "Tomato / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-78f5-ab8e-9c17da81e16b": {
+        "id": "01928e73-f7b2-78f5-ab8e-9c17da81e16b",
+        "opacity": 1,
+        "color": "#5c271f",
+        "name": "07",
+        "path": "Tomato / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7cf6-9a86-f0256efec6bb": {
+        "id": "01928e73-f7af-7cf6-9a86-f0256efec6bb",
+        "opacity": 1,
+        "color": "#4a4a95",
+        "name": "04",
+        "path": "Iris / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-7dbf-bf89-947f650a33e8": {
+        "id": "01928e73-f7ae-7dbf-bf89-947f650a33e8",
+        "opacity": 1,
+        "color": "#e4cdb7",
+        "name": "03",
+        "path": "Brown / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-78f8-a03c-0b493be36979": {
+        "id": "01928e73-f7b2-78f8-a03c-0b493be36979",
+        "opacity": 1,
+        "color": "#2f265f",
+        "name": "07",
+        "path": "Violet / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-78ca-a8e6-7a3c403cc9de": {
+        "id": "01928e73-f7b0-78ca-a8e6-7a3c403cc9de",
+        "opacity": 1,
+        "color": "#301c3b",
+        "name": "02",
+        "path": "Purple / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-7638-825a-7ec3f71bfb53": {
+        "id": "01928e73-f7ae-7638-825a-7ec3f71bfb53",
+        "opacity": 1,
+        "color": "#f2fafb",
+        "name": "01",
+        "path": "Cyan / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-77d6-81a3-a21de98e9da3": {
+        "id": "01928e73-f7af-77d6-81a3-a21de98e9da3",
+        "opacity": 1,
+        "color": "#b6ecf7",
+        "name": "07",
+        "path": "Cyan / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-7d5e-aaa0-01a1c57698b7": {
+        "id": "01928e73-f7ae-7d5e-aaa0-01a1c57698b7",
+        "opacity": 1,
+        "color": "#e93d82",
+        "name": "05",
+        "path": "Crimson / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7633-8bd3-810a50cc6bb1": {
+        "id": "01928e73-f7b0-7633-8bd3-810a50cc6bb1",
+        "opacity": 1,
+        "color": "#b8bcba",
+        "name": "04",
+        "path": "Sage / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7f78-a31c-a45c68b7d24c": {
+        "id": "01928e73-f7af-7f78-a31c-a45c68b7d24c",
+        "opacity": 1,
+        "color": "#13131e",
+        "name": "01",
+        "path": "Iris / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7566-8c83-9a8fa71ceaa1": {
+        "id": "01928e73-f7af-7566-8c83-9a8fa71ceaa1",
+        "opacity": 1,
+        "color": "#0e1511",
+        "name": "01",
+        "path": "Grass / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-75fe-9eb8-e8311a3300c7": {
+        "id": "01928e73-f7af-75fe-9eb8-e8311a3300c7",
+        "opacity": 1,
+        "color": "#5bb98b",
+        "name": "04",
+        "path": "Green / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-71a0-a2e3-77f2bf6b78fd": {
+        "id": "01928e73-f7af-71a0-a2e3-77f2bf6b78fd",
+        "opacity": 1,
+        "color": "#114837",
+        "name": "03",
+        "path": "Jade / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-74dd-b27e-0070ac2a33c2": {
+        "id": "01928e73-f7b0-74dd-b27e-0070ac2a33c2",
+        "opacity": 1,
+        "color": "#8d8d86",
+        "name": "05",
+        "path": "Sand / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-771f-8627-d9eb010d7dfb": {
+        "id": "01928e73-f7af-771f-8627-d9eb010d7dfb",
+        "opacity": 1,
+        "color": "#3e63dd",
+        "name": "05",
+        "path": "Indigo / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-796b-adfb-83d7b009da53": {
+        "id": "01928e73-f7b0-796b-adfb-83d7b009da53",
+        "opacity": 1,
+        "color": "#ffe0c2",
+        "name": "07",
+        "path": "Orange / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-7e33-ad18-de9aeb963c66": {
+        "id": "01928e73-f7b2-7e33-ad18-de9aeb963c66",
+        "opacity": 1,
+        "color": "#0d2d2a",
+        "name": "02",
+        "path": "Teal / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7649-a630-eaec15805c0a": {
+        "id": "01928e73-f7af-7649-a630-eaec15805c0a",
+        "opacity": 1,
+        "color": "#0e1512",
+        "name": "01",
+        "path": "Green / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7da4-b035-52799e0dbb52": {
+        "id": "01928e73-f7af-7da4-b035-52799e0dbb52",
+        "opacity": 1,
+        "color": "#71d083",
+        "name": "06",
+        "path": "Grass / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7fc9-9318-7ca93b5ba5ae": {
+        "id": "01928e73-f7af-7fc9-9318-7ca93b5ba5ae",
+        "opacity": 1,
+        "color": "#29a383",
+        "name": "05",
+        "path": "Jade / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-7a61-920b-46fa188b2a15": {
+        "id": "01928e73-f7ae-7a61-920b-46fa188b2a15",
+        "opacity": 1,
+        "color": "#caf1f6",
+        "name": "02",
+        "path": "Cyan / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-739b-80d8-8371c4f0d264": {
+        "id": "01928e73-f7af-739b-80d8-8371c4f0d264",
+        "opacity": 1,
+        "color": "#46a758",
+        "name": "05",
+        "path": "Grass / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b1-7214-a19c-c9ec0f09b4b6": {
+        "id": "01928e73-f7b1-7214-a19c-c9ec0f09b4b6",
+        "opacity": 1,
+        "color": "#494844",
+        "name": "04",
+        "path": "Sand / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-78b2-a06d-5ecc54095d30": {
+        "id": "01928e73-f7ae-78b2-a06d-5ecc54095d30",
+        "opacity": 1,
+        "color": "#f2e1ca",
+        "name": "07",
+        "path": "Brown / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-7776-87f8-89a12876d979": {
+        "id": "01928e73-f7b2-7776-87f8-89a12876d979",
+        "opacity": 1,
+        "color": "#6550b9",
+        "name": "06",
+        "path": "Violet / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7854-8bd0-396809124ab2": {
+        "id": "01928e73-f7af-7854-8bd0-396809124ab2",
+        "opacity": 1,
+        "color": "#bcbac7",
+        "name": "04",
+        "path": "Mauve / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-7892-8571-b03bbab504c7": {
+        "id": "01928e73-f7b2-7892-8571-b03bbab504c7",
+        "opacity": 1,
+        "color": "#e54d2e",
+        "name": "05",
+        "path": "Tomato / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b1-7a56-b00f-fc48387ceb30": {
+        "id": "01928e73-f7b1-7a56-b00f-fc48387ceb30",
+        "opacity": 1,
+        "color": "#b9bbc6",
+        "name": "04",
+        "path": "Slate / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-77a1-bc0d-2ffa05123575": {
+        "id": "01928e73-f7af-77a1-bc0d-2ffa05123575",
+        "opacity": 1,
+        "color": "#1f2d5c",
+        "name": "07",
+        "path": "Indigo / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7f7b-b7ac-7c6c9c9c6a39": {
+        "id": "01928e73-f7b0-7f7b-b7ac-7c6c9c9c6a39",
+        "opacity": 1,
+        "color": "#323035",
+        "name": "03",
+        "path": "Mauve / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-75d2-8aeb-c0ed98974411": {
+        "id": "01928e73-f7af-75d2-8aeb-c0ed98974411",
+        "opacity": 1,
+        "color": "#c1d0ff",
+        "name": "03",
+        "path": "Indigo / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-768c-b6ac-5ae79ca6f1c5": {
+        "id": "01928e73-f7b2-768c-b6ac-5ae79ca6f1c5",
+        "opacity": 1,
+        "color": "#0d3d38",
+        "name": "07",
+        "path": "Teal / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-72b5-a28b-cf19b673aba1": {
+        "id": "01928e73-f7af-72b5-a28b-cf19b673aba1",
+        "opacity": 1,
+        "color": "#f8f8ff",
+        "name": "01",
+        "path": "Iris / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b1-7e51-87cc-d18bfafd3037": {
+        "id": "01928e73-f7b1-7e51-87cc-d18bfafd3037",
+        "opacity": 1,
+        "color": "#6f6d66",
+        "name": "05",
+        "path": "Sand / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7891-b78d-2371e670386d": {
+        "id": "01928e73-f7b0-7891-b78d-2371e670386d",
+        "opacity": 1,
+        "color": "#f7def8",
+        "name": "02",
+        "path": "Plum / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-7131-ba28-df65f9d786f9": {
+        "id": "01928e73-f7b2-7131-ba28-df65f9d786f9",
+        "opacity": 1,
+        "color": "#ebe4ff",
+        "name": "02",
+        "path": "Violet / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-74cf-b576-1992b74f0cb0": {
+        "id": "01928e73-f7b0-74cf-b576-1992b74f0cb0",
+        "opacity": 1,
+        "color": "#898e87",
+        "name": "05",
+        "path": "Olive / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-73da-8d50-1aa36c9b1b15": {
+        "id": "01928e73-f7b0-73da-8d50-1aa36c9b1b15",
+        "opacity": 1,
+        "color": "#48295c",
+        "name": "03",
+        "path": "Purple / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-76b2-a88b-b87d97e690c3": {
+        "id": "01928e73-f7ae-76b2-a88b-b87d97e690c3",
+        "opacity": 1,
+        "color": "#c2e6ff",
+        "name": "07",
+        "path": "Blue / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-7b5a-900b-c149ae0dd09f": {
+        "id": "01928e73-f7b2-7b5a-900b-c149ae0dd09f",
+        "opacity": 1,
+        "color": "#181111",
+        "name": "01",
+        "path": "Tomato / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-723c-90f5-8187809158f7": {
+        "id": "01928e73-f7af-723c-90f5-8187809158f7",
+        "opacity": 1,
+        "color": "#8da4ef",
+        "name": "04",
+        "path": "Indigo / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7b23-8517-4ff4b3c6fffb": {
+        "id": "01928e73-f7b0-7b23-8517-4ff4b3c6fffb",
+        "opacity": 1,
+        "color": "#444947",
+        "name": "04",
+        "path": "Sage / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7477-baac-9a9be00fe1e0": {
+        "id": "01928e73-f7b0-7477-baac-9a9be00fe1e0",
+        "opacity": 1,
+        "color": "#3b1219",
+        "name": "02",
+        "path": "Red / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b2-7cc5-a5ac-bd47749139ee": {
+        "id": "01928e73-f7b2-7cc5-a5ac-bd47749139ee",
+        "opacity": 1,
+        "color": "#e54d2e",
+        "name": "05",
+        "path": "Tomato / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7ae-7bcb-99a4-e16c3939466b": {
+        "id": "01928e73-f7ae-7bcb-99a4-e16c3939466b",
+        "opacity": 1,
+        "color": "#5c1839",
+        "name": "03",
+        "path": "Crimson / Dark",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7b49-9777-b6b404b3f151": {
+        "id": "01928e73-f7b0-7b49-9777-b6b404b3f151",
+        "opacity": 1,
+        "color": "#f76b15",
+        "name": "05",
+        "path": "Orange / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7b0-7442-8103-c111ebc96cbf": {
+        "id": "01928e73-f7b0-7442-8103-c111ebc96cbf",
+        "opacity": 1,
+        "color": "#eb8e90",
+        "name": "04",
+        "path": "Red / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      },
+      "01928e73-f7af-7901-836a-4efbb8ef3656": {
+        "id": "01928e73-f7af-7901-836a-4efbb8ef3656",
+        "opacity": 1,
+        "color": "#8d8d8d",
+        "name": "03",
+        "path": "Gray / Light",
+        "modifiedAt": "2024-10-15T04:33:38.799Z"
+      }
+    }
+  }
+}
